@@ -124,7 +124,7 @@ function renderApp() {
       <aside class="sidebar">
         <div class="brand">
           <h1>Team Task Manager</h1>
-          <p>${escapeHtml(state.user.name)} · ${state.user.role}</p>
+          <p>${escapeHtml(state.user.name)} - ${state.user.role}</p>
         </div>
         <nav class="nav">
           ${navButton("dashboard", "Dashboard")}
